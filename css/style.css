@@ -1,0 +1,29 @@
+/* 
+    Document   : style
+    Created on : Jan 24, 2014, 1:53:14 PM
+    Author     : tyronestafford
+    Description: styles for tree of life
+        Purpose of the stylesheet follows.
+*/
+
+body{}
+
+/*===================== NAV ===============*/
+#head{
+    -webkit-box-shadow: 0 3px 3px #222;
+    -moz-box-shadow: 0 3px 3px #222;
+    -o-box-shadow: 0 3px 3px #222;
+}
+
+
+/*===================== ROWS ===============*/
+/*.row{outline: 1px solid red;}
+.columns{outline: 1px solid yellowgreen;}*/
+
+
+
+/*===================== RESPONSIVE IMG ===============*/
+.response{
+    min-width: 100%;
+    max-width: 100%;
+}

@@ -31,7 +31,7 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #999;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1604,8 +1604,8 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #2ba6cb;
-  border-color: #2285a2;
+  background-color: #e56b0e;
+  border-color: #e67f30;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -1616,7 +1616,7 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2285a2; }
+    background-color: #d36e21; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1887,7 +1887,7 @@ button, .button {
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-    color: #333333; }
+    color: #999; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625rem; }
@@ -2998,7 +2998,7 @@ blockquote p {
     clear: both; }
   [data-clearing] li {
     float: left;
-    margin-right: 10px; }
+    /*margin-right: 10px;*/ }
 
 .clearing-blackout {
   background: #333333;
