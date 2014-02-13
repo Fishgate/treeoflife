@@ -6,19 +6,131 @@
         Purpose of the stylesheet follows.
 */
 
-body{}
+/*------------------------------------- @FONTFACE -----------------------*/
+@font-face {
+    font-family: 'custom';
+    src: url('../fonts/texgyreadventor-regular-webfont.eot');
+    src: url('../fonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('../fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bp_dietultrablack';
+    src: url('../fonts/BPdiet-webfont.eot');
+    src: url('../fonts/BPdiet-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BPdiet-webfont.woff') format('woff'),
+         url('../fonts/BPdiet-webfont.ttf') format('truetype'),
+         url('../fonts/BPdiet-webfont.svg#bp_dietultrablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*=======================  RESETS ====================*/
+body{
+    font-family: 'custom', 'Helvetica', 'Arial', sans-serif;
+}
+h1, h2, h3, h4{
+    color: #acb35d;
+    border-bottom: 1px solid #666;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 0.9rem;
+}
+button, .button{
+    font-family: 'custom', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.9rem;
+}
 
 /*===================== NAV ===============*/
+.logo{
+    position: fixed;
+    z-index: 10;
+    top: 50px;
+    left: 5px;
+}
 #head{
     -webkit-box-shadow: 0 3px 3px #222;
     -moz-box-shadow: 0 3px 3px #222;
     -o-box-shadow: 0 3px 3px #222;
 }
+.top-bar-section ul li > a{
+    font-family: 'custom', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.78rem;
+}
+.active a{
+    background: #acb35d!important;
+}
+.fixed{
+    z-index: 999;
+}
+
+/*===================== HERO-HOLDER ===============*/
+
+#hero-holder{
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/forest.jpg') no-repeat;
+    background-size: cover;
+}
+#hero-holder-generic{
+    width: 100%;
+    height:1000px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/about.jpg') no-repeat;
+    background-size: contain;
+}
+#overlay{
+    width: 100%;
+    height: 900px;
+    background: #acb35d;
+    opacity: 0.5;
+}
+#overlay-generic{
+    width: 100%;
+    height: 1000px;
+    background: #acb35d;
+    opacity: 0.5;
+}
 
 
 /*===================== ROWS ===============*/
-/*.row{outline: 1px solid red;}
-.columns{outline: 1px solid yellowgreen;}*/
+.alert-box{
+    display: none;
+}
+#contentwrap{
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    padding: 20px 0 0 0;
+    
+    -webkit-box-shadow: 0 -3px 5px #333;
+    -moz-box-shadow: 0 -3px 5px #333;
+    -o-box-shadow: 0 -3px 5px #333;
+    -ms-box-shadow: 0 -3px 5px #333;
+}
+#contentwrap-generic{
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    margin-top: 40%;
+    padding: 20px 0 0 0;
+    
+    -webkit-box-shadow: 0 -3px 5px #333;
+    -moz-box-shadow: 0 -3px 5px #333;
+    -o-box-shadow: 0 -3px 5px #333;
+    -ms-box-shadow: 0 -3px 5px #333;
+}
 
 
 
@@ -26,4 +138,24 @@ body{}
 .response{
     min-width: 100%;
     max-width: 100%;
+}
+
+
+/*===================== FOOTER ===============*/
+footer{
+    padding: 20px 0;
+    background: url('../img/texture.gif');
+}
+
+a .fa{
+    color: #eee;
+}
+a .fa-facebook-square:hover{
+    color: #3C599B;
+}
+a .fa-youtube-square:hover{
+    color: #D82524;
+}
+a .fa-google-plus-square:hover{
+    color: #DF5138;
 }

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#myForm").on("invalid",function(){var e=$(this).find("[data-invalid]");console.log(e);$(this).find(".alert-box").css("display","block")}).on("valid",function(){console.log("valid!");$(this).find(".alert-box").css("display","none")})});

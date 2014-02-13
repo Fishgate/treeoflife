@@ -1604,7 +1604,7 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #e56b0e;
+  background-color: #16a085;
   border-color: #e67f30;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
@@ -1616,7 +1616,7 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #d36e21; }
+    background-color: #1abc9c; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -2507,7 +2507,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #222222;
+  color: #222;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -2684,16 +2685,16 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75rem; }
+    font-size: 1.35rem; }
 
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 1.25rem; }
 
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 1.05rem; }
 
   h4 {
-    font-size: 1.4375rem; } }
+    font-size: 0.95rem; } }
 /*
  * Print styles.
  *
