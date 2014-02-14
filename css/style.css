@@ -41,12 +41,29 @@ h1, h2, h3, h4{
     border-bottom: 1px solid #666;
     margin-bottom: 15px;
 }
+h2{
+    text-transform: capitalize;
+    border-bottom: 0;
+}
 p{
     font-size: 0.9rem;
 }
 button, .button{
     font-family: 'custom', 'Helvetica', 'Arial', sans-serif;
     font-size: 0.9rem;
+}
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+}
+a{
+    color: #acb35d;
+}
+a:hover{
+    color: #0085b1;
+}
+a.fa{
+    color: #666;
 }
 
 /*===================== NAV ===============*/
@@ -68,6 +85,7 @@ button, .button{
 .active a{
     background: #acb35d!important;
 }
+
 .fixed{
     z-index: 999;
 }
@@ -82,12 +100,44 @@ button, .button{
     background: url('../img/forest.jpg') no-repeat;
     background-size: cover;
 }
-#hero-holder-generic{
+#hero-holder-about{
     width: 100%;
     height:1000px;
     position: fixed;
     z-index: 0;
     background: url('../img/about.jpg') no-repeat;
+    background-size: contain;
+}
+#hero-holder-multiply{
+    width: 100%;
+    height:1000px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/multiplication.jpg') no-repeat;
+    background-size: contain;
+}
+#hero-holder-benefit{
+    width: 100%;
+    height:1000px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/beneficiary.jpg') no-repeat;
+    background-size: contain;
+}
+#hero-holder-affiliates{
+    width: 100%;
+    height:1000px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/affiliates.jpg') no-repeat;
+    background-size: contain;
+}
+#hero-holder-contact{
+    width: 100%;
+    height:1000px;
+    position: fixed;
+    z-index: 0;
+    background: url('../img/contact.jpg') no-repeat;
     background-size: contain;
 }
 #overlay{
@@ -131,6 +181,9 @@ button, .button{
     -o-box-shadow: 0 -3px 5px #333;
     -ms-box-shadow: 0 -3px 5px #333;
 }
+#contentwrap-generic .contentwrap-pad{
+    padding: 0 0 50px 0;
+}
 /*--------------------------
      DROP CAPS STYLE
 --------------------------*/
@@ -143,6 +196,14 @@ button, .button{
     text-shadow: 4px 4px 0 #fff, 7px 7px 0 #ccc;
 }
 
+.reset-ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.accordion-img{
+    vertical-align: bottom;
+}
 
 /*===================== RESPONSIVE IMG ===============*/
 .response{

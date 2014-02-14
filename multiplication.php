@@ -19,8 +19,8 @@
         <section class="top-bar-section">
           <!-- Left Nav Section -->
           <ul class="right">
-            <li class="active"><a href='#'>About</a></li>
-            <li><a href="multiplication.php">Multiplication</a></li>
+            <li><a href='about.php'>About</a></li>
+            <li class="active"><a href="#">Multiplication</a></li>
             <li><a href="beneficiaries.php">Beneficiaries</a></li>
             <li><a href="affiliates.php">Affiliates</a></li>
             <li><a href="contact.php">Contact</a></li>
@@ -32,7 +32,7 @@
       <!-- ==================================================
                               HERO IMG
       =====================================================-->
-      <div id="hero-holder-about">
+      <div id="hero-holder-multiply">
           <div id="overlay-generic"></div>
       </div>
       
@@ -42,25 +42,24 @@
                               CONTENT
       =====================================================-->
       <div id="contentwrap-generic">
-      <div class="row contentwrap-pad clearfix">
+      <div class="contentwrap-pad clearfix">
           <div class="large-8 left columns">
-              <h1>About Us</h1>
+              <h1>Multiplication</h1>
               <p class="para-drop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
               <hr />
-              <h2>Philosophy</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
-              <h2>Mission</h2>
-              <p>In tortor purus, tincidunt sit amet faucibus a, malesuada nec lorem. Maecenas eu rutrum diam. Morbi gravida volutpat libero, sit amet fermentum ligula tempor sed. Praesent vitae erat eget eros posuere mattis sit amet a sem. Phasellus ut ultricies nisl. Integer sed commodo libero. Mauris eu diam in purus rhoncus rutrum et ut leo. Vestibulum in rhoncus eros. Duis ut urna mattis, imperdiet augue at, mollis metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ullamcorper tempus tincidunt.</p>
-              <h2>Values</h2>
-              <p>Suspendisse in varius massa. Donec sed eleifend nisi. In hac habitasse platea dictumst. Vestibulum tincidunt ipsum et leo dictum commodo sit amet sit amet dui. Maecenas non eleifend velit. Mauris aliquam velit vitae euismod feugiat. Cras tincidunt gravida leo, ac feugiat tortor placerat ac. Suspendisse in ultrices ligula. In a viverra urna, vitae facilisis tellus. Sed rhoncus nulla felis, eget rhoncus <a href="#">quam tincidunt</a> at. Aliquam placerat non orci ac tincidunt.</p>
+              <h2>Explained</h2>
+              <img class="response" src="http://www.placehold.it/600x1000" alt="multiplication infographic" />
           </div>
           <div class="large-4 left columns">
-              <h1>Heading</h1>
+              <h1>Downloads</h1>
               <div class="panel">
-                  <ul class="small-block-grid-3">
-                    <li><img class="response" src="img/gallery1.jpg" alt="image1" /></li>
-                    <li><img class="response" src="img/gallery2.jpg" alt="image2" /></li>
-                    <li><img class="response" src="img/gallery3.jpg" alt="image3" /></li>
+                  <ul class="reset-ul">
+                      <li>
+                          <p>
+                                <a href="#" class="fa fa-2x fa-download"></a>
+                                <a href="#">&nbsp; Multiplication infographic</a>
+                         </p>
+                      </li>
                   </ul>
               </div>
           </div>

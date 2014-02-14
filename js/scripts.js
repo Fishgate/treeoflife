@@ -11,4 +11,20 @@ $(document).ready(function(){
         console.log('valid!');
         $(this).find('.alert-box').css('display', 'none');
     });
+    
+    
+    
+    //=========================================
+    //     BENFICIARIES ACCORDIAN 
+    //=========================================
+    $('.accordion dd').each(function(){
+        $(this).click(function(){
+            $('.accordion dd').removeClass('active');
+            $(this).toggleClass('active');
+        });
+    });
 });
+
+
+
+//    6 22 55 426 118
