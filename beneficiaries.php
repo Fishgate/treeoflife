@@ -42,7 +42,7 @@
                               CONTENT
       =====================================================-->
       <div id="contentwrap-generic">
-      <div class="contentwrap-pad clearfix">
+      <div class="row contentwrap-pad clearfix">
           <div class="large-8 left columns">
               <h1>Beneficiaries</h1>
               <p class="para-drop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>

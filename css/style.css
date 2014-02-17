@@ -211,6 +211,12 @@ a.fa{
     max-width: 100%;
 }
 
+/*===================== CONTACT FORM STYLES ===============*/
+textarea{
+    height: 120px;
+}
+
+
 
 /*===================== FOOTER ===============*/
 footer{
