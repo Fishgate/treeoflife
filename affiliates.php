@@ -85,13 +85,36 @@
             </div>
 
             <div class="large-4 left columns">
-                <h1>Links</h1>
+                <h1>Accountability</h1>
                   <div class="panel">
+                      <h3>Measures  taken</h3>
+                     <ul class="ul-small">
+                        <li>Sed in dui tempor neque molestie rutrum eget eu dui.</li>
+                        <li>Sed vitae justo ac urna commodo condimentum in non neque.</li>
+                        <li>In euismod mauris vitae tortor aliquet ornare.</li>
+                        <li>Cras pharetra mi sed ipsum dignissim, sed tristique eros molestie.</li>
+                        <li>Nulla fringilla urna sit amet nibh dictum, et accumsan nibh posuere.</li>
+                    </ul>
+                      
+                      <br />
+                      
+                      <h3>Audit</h3>
+                      <ul class="reset-ul">
+                         <li>
+                             <p>
+                                <a href="#" class="fa fa-2x fa-download"></a>
+                                <a href="#">&nbsp; Audit 2013</a>
+                            </p>
+                         </li>
+                     </ul>
+                      
+                      <br />
+                      
+                      <h3>Partners</h3>
                       <ul class="small-block-grid-3">
-                          <!-- PUT BENEFICIARIES LOGO HERE? -->
-                        <li><img class="response" src="img/gallery1.jpg" alt="image1" /></li>
-                        <li><img class="response" src="img/gallery2.jpg" alt="image2" /></li>
-                        <li><img class="response" src="img/gallery3.jpg" alt="image3" /></li>
+                          <li><a href="#"><img src="img/gallery1.jpg" alt="partner" /></a></li>
+                          <li><a href="#"><img src="img/gallery2.jpg" alt="partner" /></a></li>
+                          <li><a href="#"><img src="img/gallery3.jpg" alt="partner" /></a></li>
                       </ul>
                   </div>
             </div>

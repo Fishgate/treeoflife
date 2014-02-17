@@ -48,7 +48,7 @@
               <p class="para-drop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
               <hr />
               <h2>Explained</h2>
-              <img class="response" src="http://www.placehold.it/600x1000" alt="multiplication infographic" />
+              <img class="response" src="img/infographic.jpg" alt="multiplication infographic" />
           </div>
           <div class="large-4 left columns">
               <h1>Downloads</h1>
@@ -56,8 +56,8 @@
                   <ul class="reset-ul">
                       <li>
                           <p>
-                                <a href="#" class="fa fa-2x fa-download"></a>
-                                <a href="#">&nbsp; Multiplication infographic</a>
+                                <a href="downloads/infographic.jpg" class="fa fa-2x fa-download"></a>
+                                <a href="downloads/infographic.jpg">&nbsp; Multiplication infographic</a>
                          </p>
                       </li>
                   </ul>

@@ -12,7 +12,18 @@ $(document).ready(function(){
         $(this).find('.alert-box').css('display', 'none');
     });
     
+    //=========================================
+    //     ADJUST CLEARING GALLERY THUMBS
+    //=========================================
+    $('.clearing-thumbs a').each(function(){
+        $(this).click(function(){
+           $(this).parent().parent().removeClass('small-block-grid-3'); 
+        });
+    });
     
+    $('.clearing-close').bind('click', function(){
+        $('#toggle-grid').addClass('small-block-grid-3');
+    });
     
     //=========================================
     //     BENFICIARIES ACCORDIAN 

@@ -205,6 +205,21 @@ a.fa{
     vertical-align: bottom;
 }
 
+/*===================== CLEARING CONTAINER Z-INDEX 1000 ===============*/
+.clearing-close{
+    top: 40px;
+}
+.clearing-container{
+    padding-top:50px;
+}
+
+/*===================== SMALL UL FONT TREATMENT ===============*/
+.ul-small{
+    font-size: 0.8rem;
+    color: #333;
+}
+
+
 /*===================== RESPONSIVE IMG ===============*/
 .response{
     min-width: 100%;
@@ -213,7 +228,7 @@ a.fa{
 
 /*===================== CONTACT FORM STYLES ===============*/
 textarea{
-    height: 120px;
+    height: 10px;
 }
 
 

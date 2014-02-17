@@ -55,12 +55,16 @@
               <p>Suspendisse in varius massa. Donec sed eleifend nisi. In hac habitasse platea dictumst. Vestibulum tincidunt ipsum et leo dictum commodo sit amet sit amet dui. Maecenas non eleifend velit. Mauris aliquam velit vitae euismod feugiat. Cras tincidunt gravida leo, ac feugiat tortor placerat ac. Suspendisse in ultrices ligula. In a viverra urna, vitae facilisis tellus. Sed rhoncus nulla felis, eget rhoncus <a href="#">quam tincidunt</a> at. Aliquam placerat non orci ac tincidunt.</p>
           </div>
           <div class="large-4 left columns">
-              <h1>Heading</h1>
+              <h1>Gallery</h1>
               <div class="panel">
-                  <ul class="small-block-grid-3">
-                    <li><img class="response" src="img/gallery1.jpg" alt="image1" /></li>
-                    <li><img class="response" src="img/gallery2.jpg" alt="image2" /></li>
-                    <li><img class="response" src="img/gallery3.jpg" alt="image3" /></li>
+                  <ul id="toggle-grid" class="small-block-grid-3 clearing-thumbs" data-clearing>
+                    <li><a href="img/gallery_large1.jpg"><img class="response" src="img/gallery1.jpg" alt="image1" /></a></li>
+                    <li><a href="img/gallery_large2.jpg"><img class="response" src="img/gallery2.jpg" alt="image2" /></a></li>
+                    <li><a href="img/gallery_large3.jpg"><img class="response" src="img/gallery3.jpg" alt="image3" /></a></li>
+                    
+                    <li><a href="img/gallery_large4.jpg"><img class="response" src="img/gallery4.jpg" alt="image4" /></a></li>
+                    <li><a href="img/gallery_large5.jpg"><img class="response" src="img/gallery5.jpg" alt="image5" /></a></li>
+                    <li><a href="img/gallery_large6.jpg"><img class="response" src="img/gallery6.jpg" alt="image6" /></a></li>
                   </ul>
               </div>
           </div>
