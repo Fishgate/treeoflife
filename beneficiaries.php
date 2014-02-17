@@ -100,14 +100,35 @@
           </div>
           
           <div class="large-4 left columns">
-              <h1>Links</h1>
+              <h1>Ways of giving</h1>
                 <div class="panel">
-                    <ul class="small-block-grid-3">
-                        <!-- PUT BENEFICIARIES LOGO HERE? -->
-                      <li><img class="response" src="img/gallery1.jpg" alt="image1" /></li>
-                      <li><img class="response" src="img/gallery2.jpg" alt="image2" /></li>
-                      <li><img class="response" src="img/gallery3.jpg" alt="image3" /></li>
-                    </ul>
+                    <h3>NCF</h3>
+                    <!--  -->
+                    <div class="row clearfix show-for-small">
+                        <div class="small-12 left columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget aliquet ante. Ut nisl magna, euismod et eros posuere, fringilla ullamcorper eros. Nunc a lectus quis neque euismod faucibus. Nunc vel turpis ut augue egestas pharetra at quis orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <hr />
+                            <a href="#" class="button expand">Donate</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="row clearfix hide-for-large-up hide-for-small">
+                        <div class="medium-2 left columns">
+                            <img class="response" src="img/gallery1.jpg" alt="NCF logo" />
+                        </div>
+                        <div class="medium-10 left columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget aliquet ante. Ut nisl magna, euismod et eros posuere, fringilla ullamcorper eros. Nunc a lectus quis neque euismod faucibus. Nunc vel turpis ut augue egestas pharetra at quis orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="right button">Donate</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="row clearfix show-for-large-up">
+                        <div class="large-12 left columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget aliquet ante. Ut nisl magna, euismod et eros posuere, fringilla ullamcorper eros. Nunc a lectus quis neque euismod faucibus. Nunc vel turpis ut augue egestas pharetra at quis orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="button expand">Donate</a>
+                        </div>
+                    </div>
+                    <!--  -->
                 </div>
           </div>
       </div>

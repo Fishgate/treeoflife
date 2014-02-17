@@ -46,14 +46,67 @@
           <div class="large-8 left columns">
               <h1>About Us</h1>
               <p class="para-drop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+              
               <hr />
-              <h2>Philosophy</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
-              <h2>Mission</h2>
-              <p>In tortor purus, tincidunt sit amet faucibus a, malesuada nec lorem. Maecenas eu rutrum diam. Morbi gravida volutpat libero, sit amet fermentum ligula tempor sed. Praesent vitae erat eget eros posuere mattis sit amet a sem. Phasellus ut ultricies nisl. Integer sed commodo libero. Mauris eu diam in purus rhoncus rutrum et ut leo. Vestibulum in rhoncus eros. Duis ut urna mattis, imperdiet augue at, mollis metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ullamcorper tempus tincidunt.</p>
-              <h2>Values</h2>
-              <p>Suspendisse in varius massa. Donec sed eleifend nisi. In hac habitasse platea dictumst. Vestibulum tincidunt ipsum et leo dictum commodo sit amet sit amet dui. Maecenas non eleifend velit. Mauris aliquam velit vitae euismod feugiat. Cras tincidunt gravida leo, ac feugiat tortor placerat ac. Suspendisse in ultrices ligula. In a viverra urna, vitae facilisis tellus. Sed rhoncus nulla felis, eget rhoncus <a href="#">quam tincidunt</a> at. Aliquam placerat non orci ac tincidunt.</p>
+              <h2>Meet our team</h2>
+              <br />
+              <div class="row clearfix">
+                  <div class="large-3 medium-3 left columns">
+                      <img class="response" src="img/gallery1.jpg" />
+                  </div>
+                  <div class="large-9 medium-9 left columns">
+                      <h4>Name Here</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                  </div>
+              </div>
+              <br />
+              <div class="row clearfix">
+                  <div class="large-3 medium-3 left columns">
+                      <img class="response" src="img/gallery2.jpg" />
+                  </div>
+                  <div class="large-9 medium-9 left columns">
+                      <h4>Name Here</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                  </div>
+              </div>
+              <br />
+              <div class="row clearfix">
+                  <div class="large-3 medium-3 left columns">
+                      <img class="response" src="img/gallery3.jpg" />
+                  </div>
+                  <div class="large-9 medium-9 left columns">
+                      <h4>Name Here</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                  </div>
+              </div>
+              
+              <hr />
+              
+              <dl class="accordion" data-accordion>
+                  <!--//////// PANEL \\\\\\\\-->
+                  <dd>
+                      <a href="#panel1">Philosophy</a>
+                      <div id="panel1" class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                      </div>
+                  </dd>
+                  <!--//////// PANEL \\\\\\\\-->
+                  <dd>
+                      <a href="#panel2">Mission</a>
+                      <div id="panel2" class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                      </div>
+                  </dd>
+                  <!--//////// PANEL \\\\\\\\-->
+                  <dd>
+                      <a href="#panel3">Vision</a>
+                      <div id="panel3" class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</p>
+                      </div>
+                  </dd>
+              </dl>
           </div>
+          
           <div class="large-4 left columns">
               <h1>Gallery</h1>
               <div class="panel">
