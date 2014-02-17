@@ -226,6 +226,13 @@ a.fa{
     max-width: 100%;
 }
 
+/*===================== MODIFY foundation DROPDOWN BTN ===============*/
+.f-dropdown{
+    padding: 10px;
+    min-width: 250px;
+}
+
+
 /*===================== CONTACT FORM STYLES ===============*/
 textarea{
     height: 10px;

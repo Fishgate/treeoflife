@@ -59,10 +59,10 @@
                       <a href="#panel1">Beneficiary 1</a>
                       <div id="panel1" class="content">
                           <div class="row clearfix">
-                              <div class="large-3 medium-2 left columns">
+                              <div class="large-3 medium-3 left columns">
                                   <img class="response" src="img/gallery1.jpg" />
                               </div>
-                              <div class="large-9 medium-10 left columns">
+                              <div class="large-9 medium-9 left columns">
                                   <p>"<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</em>"</p>
                               </div>
                           </div>
@@ -73,10 +73,10 @@
                       <a href="#panel2">Beneficiary 2</a>
                       <div id="panel2" class="content">
                             <div class="row clearfix">
-                              <div class="large-3 medium-2 left columns">
+                              <div class="large-3 medium-3 left columns">
                                   <img class="response" src="img/gallery2.jpg" />
                               </div>
-                              <div class="large-9 medium-10 left columns">
+                              <div class="large-9 medium-9 left columns">
                                   <p>"<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</em>"</p>
                               </div>
                           </div>
@@ -87,10 +87,10 @@
                       <a href="#panel3">Beneficiary 3</a>
                       <div id="panel3" class="content">
                           <div class="row clearfix">
-                              <div class="large-3 medium-2 left columns">
+                              <div class="large-3 medium-3 left columns">
                                   <img class="response" src="img/gallery3.jpg" />
                               </div>
-                              <div class="large-9 medium-10 left columns">
+                              <div class="large-9 medium-9 left columns">
                                   <p>"<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tortor mi. Phasellus adipiscing erat tempor, feugiat urna id, congue quam. Curabitur ac leo sit amet leo pretium blandit. Integer feugiat, dolor in pretium lacinia, elit leo malesuada odio, nec ultricies risus elit eget nibh. Proin ac turpis euismod lacus facilisis aliquet. Vestibulum id ipsum sit amet enim lacinia rutrum in condimentum massa.</em>"</p>
                               </div>
                           </div>
